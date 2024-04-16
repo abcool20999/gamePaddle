@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ball and Paddle Game</title>
+<link rel="stylesheet" href="bap.css">
+</head>
+<body>
+<div id="game-container">
+  <div id="lives">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 75" width="150" height="150">
+      <!-- Head -->
+      <circle cx="50" cy="25" r="10" fill="#f0d7c1" />
+    
+      <!-- Body -->
+      <rect x="45" y="35" width="10" height="20" fill="#f0d7c1" />
+    
+      <!-- Arms -->
+      <path d="M45 40 Q 35 45, 30 50" fill="none" stroke="#f0d7c1" stroke-width="3" />
+      <path d="M55 40 Q 65 45, 70 50" fill="none" stroke="#f0d7c1" stroke-width="3" />
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 75" width="150" height="150">
+      <!-- Head -->
+      <circle cx="50" cy="25" r="10" fill="#f0d7c1" />
+    
+      <!-- Body -->
+      <rect x="45" y="35" width="10" height="20" fill="#f0d7c1" />
+    
+      <!-- Arms -->
+      <path d="M45 40 Q 35 45, 30 50" fill="none" stroke="#f0d7c1" stroke-width="3" />
+      <path d="M55 40 Q 65 45, 70 50" fill="none" stroke="#f0d7c1" stroke-width="3" />
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 75" width="150" height="150">
+      <!-- Head -->
+      <circle cx="50" cy="25" r="10" fill="#f0d7c1" />
+    
+      <!-- Body -->
+      <rect x="45" y="35" width="10" height="20" fill="#f0d7c1" />
+    
+      <!-- Arms -->
+      <path d="M45 40 Q 35 45, 30 50" fill="none" stroke="#f0d7c1" stroke-width="3" />
+      <path d="M55 40 Q 65 45, 70 50" fill="none" stroke="#f0d7c1" stroke-width="3" />
+    </svg>
+  </div>
+  <label>score</label>
+  <h2 id="score"></h2>
+  <div id="gameover">Game Over</div>
+  <div id="paddle"></div>
+  <div id="ball"></div>
+</div>
+<script src="bap.js"></script>
+</body>
+</html>
